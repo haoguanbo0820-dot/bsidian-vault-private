@@ -8,6 +8,7 @@
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
+| 17:55 | claude-desktop | 🔍 发现 + 接入 | Marvis（腾讯 Android Agent）审计完成，接入 vault 协调系统 |
 | 17:50 | claude-desktop | 🧹 清理 | Hermes MEMORY 9,467→400 chars 迁移到 vault（hard-rules + tasks + tools） |
 | 17:42 | claude-desktop | 🤝 交棒 | 写 handoff → hermes |
 | 17:40 | claude-desktop | 🔍 发现 | Hermes 重复装 obsidian-git（撞车，我已装好它不知道） |
