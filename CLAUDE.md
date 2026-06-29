@@ -2,7 +2,7 @@
 
 > 这是郝冠的的知识库，也是**所有 AI Agent 的单一真相源**。
 >
-> 4 个 Agent 协调工作：Claude Desktop / Claude Code / Codex / Hermes
+> 5 个 Agent 协调工作：Claude Desktop / Claude Code / Codex / Hermes / Marvis
 
 ## 每个 Agent 必须遵守（不管什么任务）
 
@@ -27,7 +27,14 @@
 | `claude-desktop` | Claude Desktop | Opus 4.6 | `D:\claude desktop\CLAUDE.md` | 开发/架构/运维 |
 | `claude-code` | Claude Code CLI | Opus 4.6 | `G:/个人项目/AI工具/claude/CLAUDE.md` | 代码编写/调试 |
 | `codex` | Codex CLI (CC Switch) | MiniMax-M3 | `G:/个人项目/AI工具/codex/CLAUDE.md` | 代码审查/自动修复 |
+| `marvis` | MarvisAgent (Tencent) | MiniMax-M3 | `G:/模拟器+agent/marvis/CLAUDE.md` | Android 模拟器操控 |
 | `hermes` | Hermes-Portable | MiniMax-M3 | `D:/OpenClaw-Hermes-Portable/CLAUDE.md` | 自动化调度/微信 |
+
+## CEL 畅达业务
+
+CEL 是中俄跨境快递物流业务，对接 Ozon / Wildberries / Yandex 三个俄罗斯平台。
+
+业务文档索引：[[CEL-home|CEL 项目总览]]
 
 ## 目录结构
 
@@ -40,6 +47,7 @@ Coordination/     ← Agent 协调层（所有 Agent 读写）
   SESSIONS/       ← 任务详细记录
 Memory/           ← 用户偏好（权威源）
 Projects/         ← 项目文档
+  CEL/            ← CEL 畅达业务（中俄跨境物流）
 SOP/              ← 标准操作流程
 Imports/          ← 业务资料
 Daily/            ← 日记
