@@ -9,6 +9,7 @@
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
 | 17:55 | claude-desktop | 🔍 发现 + 接入 | Marvis（腾讯 Android Agent）审计完成，接入 vault 协调系统 |
+| 18:15 | claude-desktop | 📋 整理 | Hermes 全量内容整理到 vault：5 个结构化文档（home + 情报系统 + auto_reply + 报告归档 + 代码） |
 | 18:00 | claude-desktop | 📋 整理 | CEL 畅达业务全量整理到 vault：4 个结构化文档（home + 文件索引 + 平台对接 + 会议） |
 | 17:50 | claude-desktop | 🧹 清理 | Hermes MEMORY 9,467→400 chars 迁移到 vault（hard-rules + tasks + tools） |
 | 17:42 | claude-desktop | 🤝 交棒 | 写 handoff → hermes |
