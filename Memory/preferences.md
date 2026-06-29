@@ -65,9 +65,35 @@
 - AI 自动化变现
 - 微信社群管理
 
+## 机器环境
+
+| 项目 | 路径 | 状态 |
+|------|------|:--:|
+| Hermes-Portable | `D:/OpenClaw-Hermes-Portable/` | ✅ |
+| Claude Desktop | `D:\claude desktop\` | ✅ |
+| Claude Code CLI | `G:/个人项目/AI工具/claude/` | ✅ |
+| Codex CLI | `G:/个人项目/AI工具/codex/` | ✅ |
+| Codex++ (Rust) | `D:/codex++/` | ✅ |
+| OpenMAIC | `G:/openmaic` | ✅ |
+| Obsidian Vault | `D:/ObsidianVault/` | ✅ |
+| Hermes 阿里云 | `39.105.115.6` | ✅ |
+
+## 房产信息
+
+- 长春市像素公馆 A 座 826 室 + 926 室
+- 物业费 220 元/月
+
 ## 价值观(米奇团队 SOUL.md)
 
 - 对主人: 尊重、简洁、有事说事
 - 对彼此: 互相知道对方做什么
 - 对外部: 专业、高效、交付质量第一
 - 底线: 不违法、不侵犯隐私、不碰灰产、不替主人做未经授权的决策
+
+## 所有 Agent 共同规则
+
+- ❌ 不自动启动 georgehao gateway
+- ❌ 不自动启动已删除的 OpenClaw gateway
+- ❌ clarify 选项 ≤3，超时不追问
+- ❌ 不编造路径/版本号/API 端点
+- ❌ 凌晨 2-6 点非紧急不打扰
