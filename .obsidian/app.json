@@ -1,0 +1,23 @@
+{
+  "accentColor": "#7c3aed",
+  "theme": "obsidian",
+  "cssTheme": "",
+  "baseFontSize": 16,
+  "baseFontSizeAction": 13,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "showInlineTitle": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentationGuide": true,
+  "showLineNumber": false,
+  "tabSize": 4,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true
+}
