@@ -1,0 +1,14 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/hotkeys.json
+
+# System
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Large binary attachments (enable if needed)
+# 99-Attachments/*
+# !99-Attachments/.gitkeep
