@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": true,
@@ -8,56 +8,56 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Coordination",
+      "query": "path:\"Coordination\"",
       "color": {
         "a": 1,
         "rgb": 5774471
       }
     },
     {
-      "query": "path:Projects/CEL",
+      "query": "path:\"Projects/CEL\"",
       "color": {
         "a": 1,
         "rgb": 8266446
       }
     },
     {
-      "query": "path:Projects/Hermes",
+      "query": "path:\"Projects/Hermes\"",
       "color": {
         "a": 1,
         "rgb": 9133302
       }
     },
     {
-      "query": "path:Projects",
+      "query": "path:\"Projects\"",
       "color": {
         "a": 1,
         "rgb": 11032055
       }
     },
     {
-      "query": "path:Memory",
+      "query": "path:\"Memory\"",
       "color": {
         "a": 1,
         "rgb": 12616956
       }
     },
     {
-      "query": "path:SOP",
+      "query": "path:\"SOP\"",
       "color": {
         "a": 1,
         "rgb": 10980346
       }
     },
     {
-      "query": "path:Daily",
+      "query": "path:\"Daily\"",
       "color": {
         "a": 1,
         "rgb": 14202110
       }
     },
     {
-      "query": "path:Imports",
+      "query": "path:\"Imports\"",
       "color": {
         "a": 1,
         "rgb": 15324671
@@ -71,16 +71,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.2,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
+  "centerStrength": 0.5,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1,
-  "close": true
+  "close": false
 }
