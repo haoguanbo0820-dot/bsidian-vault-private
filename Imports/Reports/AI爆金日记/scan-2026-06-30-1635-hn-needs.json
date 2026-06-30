@@ -1,0 +1,64 @@
+{
+  "ts": "2026-06-30 16:35",
+  "agent": "claude-desktop",
+  "mode": "hn-stories-needs",
+  "topics": {
+    "codex_security": {
+      "status": "ok",
+      "total_hits": 15,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "Show HN: Mysti – Claude, Codex, and Gemini debate your code, then synthesize",
+          "url": "https://github.com/DeepMyst/Mysti",
+          "hn_url": "https://news.ycombinator.com/item?id=46365105",
+          "points": 216,
+          "comments": 178,
+          "author": "bahaAbunojaim",
+          "created_at": "2025-12-23T13:18:32Z",
+          "objectID": "46365105"
+        }
+      ]
+    },
+    "vibe_coding_reality": {
+      "status": "ok",
+      "total_hits": 15,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "“Vibe Coding” vs. Reality",
+          "url": "https://cendyne.dev/posts/2025-03-19-vibe-coding-vs-reality.html",
+          "hn_url": "https://news.ycombinator.com/item?id=43448432",
+          "points": 221,
+          "comments": 297,
+          "author": "birdculture",
+          "created_at": "2025-03-22T20:35:51Z",
+          "objectID": "43448432"
+        }
+      ]
+    },
+    "llm_reliability": {
+      "status": "ok",
+      "total_hits": 15,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "Launch HN: Maitai (YC S24) – Self-Optimizing LLM Platform",
+          "url": "",
+          "hn_url": "https://news.ycombinator.com/item?id=41456552",
+          "points": 149,
+          "comments": 75,
+          "author": "cmdalsanto",
+          "created_at": "2024-09-05T13:42:43Z",
+          "objectID": "41456552"
+        }
+      ]
+    },
+    "claude_code_issues": {
+      "status": "ok",
+      "total_hits": 15,
+      "real_signals_count": 0,
+      "signals": []
+    }
+  }
+}

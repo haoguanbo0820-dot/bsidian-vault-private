@@ -1,0 +1,143 @@
+{
+  "ts": "2026-06-30T16:35:59.925118",
+  "agent": "claude-desktop",
+  "mode": "hn-needs-v2",
+  "topics": {
+    "codex_security": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "Show HN: Mysti – Claude, Codex, and Gemini debate your code, then synthesize",
+          "url": "https://github.com/DeepMyst/Mysti",
+          "hn_url": "https://news.ycombinator.com/item?id=46365105",
+          "points": 216,
+          "comments": 178,
+          "author": "bahaAbunojaim",
+          "created_at": "2025-12-23T13:18:32Z"
+        }
+      ]
+    },
+    "vibe_coding_reality": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "“Vibe Coding” vs. Reality",
+          "url": "https://cendyne.dev/posts/2025-03-19-vibe-coding-vs-reality.html",
+          "hn_url": "https://news.ycombinator.com/item?id=43448432",
+          "points": 221,
+          "comments": 297,
+          "author": "birdculture",
+          "created_at": "2025-03-22T20:35:51Z"
+        }
+      ]
+    },
+    "llm_reliability": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "Launch HN: Maitai (YC S24) – Self-Optimizing LLM Platform",
+          "url": "",
+          "hn_url": "https://news.ycombinator.com/item?id=41456552",
+          "points": 149,
+          "comments": 75,
+          "author": "cmdalsanto",
+          "created_at": "2024-09-05T13:42:43Z"
+        }
+      ]
+    },
+    "claude_code_issues": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 0,
+      "signals": []
+    },
+    "claude_code_setup": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 2,
+      "signals": [
+        {
+          "title": "The creator of Claude Code's Claude setup",
+          "url": "https://twitter.com/bcherny/status/2007179832300581177",
+          "hn_url": "https://news.ycombinator.com/item?id=46470017",
+          "points": 568,
+          "comments": 403,
+          "author": "KothuRoti",
+          "created_at": "2026-01-02T22:07:50Z"
+        },
+        {
+          "title": "Garry Tan's Claude Code Setup",
+          "url": "https://github.com/garrytan/gstack/tree/main",
+          "hn_url": "https://news.ycombinator.com/item?id=47418576",
+          "points": 74,
+          "comments": 79,
+          "author": "alienreborn",
+          "created_at": "2026-03-17T21:28:35Z"
+        }
+      ]
+    },
+    "mcp_servers": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "Show HN: Free local security checks for AI coding in VSCode, Cursor and Windsurf",
+          "url": "",
+          "hn_url": "https://news.ycombinator.com/item?id=44309393",
+          "points": 43,
+          "comments": 22,
+          "author": "jaimefjorge",
+          "created_at": "2025-06-18T12:42:51Z"
+        }
+      ]
+    },
+    "agent_safety": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 1,
+      "signals": [
+        {
+          "title": "AI agents break rules under everyday pressure",
+          "url": "https://spectrum.ieee.org/ai-agents-safety",
+          "hn_url": "https://news.ycombinator.com/item?id=46067995",
+          "points": 279,
+          "comments": 169,
+          "author": "pseudolus",
+          "created_at": "2025-11-27T10:52:15Z"
+        }
+      ]
+    },
+    "token_cost": {
+      "status": "ok",
+      "total_hits": 20,
+      "real_signals_count": 2,
+      "signals": [
+        {
+          "title": "Show HN: CodeBurn – Analyze Claude Code token usage by task",
+          "url": "https://github.com/AgentSeal/codeburn",
+          "hn_url": "https://news.ycombinator.com/item?id=47759035",
+          "points": 112,
+          "comments": 27,
+          "author": "agentseal",
+          "created_at": "2026-04-13T22:57:05Z"
+        },
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "url": "https://cost.dev/",
+          "hn_url": "https://news.ycombinator.com/item?id=48397148",
+          "points": 48,
+          "comments": 29,
+          "author": "akh",
+          "created_at": "2026-06-04T11:30:13Z"
+        }
+      ]
+    }
+  }
+}
