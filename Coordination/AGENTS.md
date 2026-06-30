@@ -10,7 +10,7 @@
 | `claude-code` | Claude Code CLI | Opus 4.6 | `G:/个人项目/AI工具/claude/CLAUDE.md` | CC Switch proxy | 🟢 |
 | `codex` | Codex CLI (CC Switch) | MiniMax-M3 | `G:/个人项目/AI工具/codex/CLAUDE.md` | `AGENTS.md` + `shared-ai-memory/` | 🟢 |
 | `hermes` | Hermes-Portable | MiniMax-M3 | `D:/OpenClaw-Hermes-Portable/CLAUDE.md` | `hermes-data/config.yaml` | 🟢 |
-| `marvis` | MarvisAgent (Tencent) | MiniMax-M3 | `G:/模拟器+agent/marvis/` | `config.py` + ADB `127.0.0.1:14016` | 🟡 |
+| `marvis` | MarvisAgent (Tencent) | MiniMax-M3 | `G:/模拟器+agent/marvis/CLAUDE.md` | `config.py` + `vault_coordinator.py` + ADB `127.0.0.1:14016` | 🟢 |
 
 ## Agent 能力矩阵
 
@@ -28,7 +28,7 @@
 | 后台自动化 | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Android 操控 | ❌ | ❌ | ❌ | ❌ | ✅ |
 | 定时调度 | ❌ | ❌ | ❌ | ⚠️ | ✅ |
-| Vault 自协调 | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Vault 自协调 | ✅ | ✅ | ✅ | ✅ | ✅（vault_coordinator.py）|
 
 ## 接入状态
 
@@ -38,9 +38,9 @@
 | claude-code | ✅ 2026-06-29 | ✅ | ✅ | ✅ |
 | codex | ✅ 2026-06-29 | ✅ | ✅ | ✅ |
 | hermes | ✅ 2026-06-29 | ✅ | ✅ | ✅ |
-| marvis | ❌ Python Agent，不读文件 | ❌ | ❌ | ❌ |
+| marvis | ✅ vault_coordinator.py | ✅ vault_coordinator.py | ✅ vault_coordinator.py | ❌ Python Agent，不自主登记 |
 
-> **Marvis 特殊说明**: Marvis 是 Python 脚本驱动的 Android 自动化 Agent，不是文件型 AI。它不能自行读取 vault 协调文件。需要人工或通过其他 Agent 为它做协调（分配任务、检查结果）。详见 [[marvis-tasks|Marvis 任务看板]]。
+> **Marvis 特殊说明**: Marvis 是 Python 脚本驱动的 Android 自动化 Agent。它通过 `vault_coordinator.py` 模块在每次 `MainAgent.run()` 调用前后自动拉取/推送 vault，遵守与文件型 Agent 相同的协调协议（pull → 检查撞车 → 注册 → 完成后写日志 → push）。详见 [[marvis-tasks|Marvis 任务看板]]。
 
 ## 新 Agent 接入流程
 
