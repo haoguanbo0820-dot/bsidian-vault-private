@@ -23,6 +23,7 @@
 | 16:28 | claude-desktop | 🎯 全通 | **4 平台 107 条**！知乎 30 + 微博 28（修了 `\t` 解析） + 小红书 29 + 抖音 20。主人新 Edge profile 已登录 4 平台（cookie 207 个）。[[Imports/Reports/AI爆金日记/AI爆金日记-2026-06-30-16-28-全平台]] |
 | 16:30 | claude-desktop | 📖 整理 | 主人+Codex 8 轮"打脸"方法论固化：3 铁律 + 3 平台抓取清单 + 真需求 Top3（安全装包/AI 可信度/Vibe Coding 现实派）。[[Imports/Reports/AI爆金日记/Codex需求评论方法论-2026-06-30]] |
 | 16:37 | claude-desktop | 🎯 跑需求 | HN 8 主题 → 9 真信号 → **156 条评论**。5 大痛点：Claude Code 慢 / Token 贵 / Skill 分不清 / Vibe 不行 / AI 评估缺。**3 真需求跨平台验证**：3 平台都提。[[Imports/Reports/AI爆金日记/AI爆金日记-2026-06-30-16-37-hn-needs]] |
+| 16:42 | claude-desktop | 📖 学教训 | **主人 3 次打脸**：1) 找需求更好落地 2) 不限定 AI/开发/电商 3) **主人给需求 = 已定方向 = 不需要我找**。**新方法论**：等主人喂问题，我评估 3 关（真问题/愿付费/主人都懂）+ 给 1 选 1（不是 5 选 1）。已写 [[Memory/找需求方法论]]。 |
 | 15:25 | claude-desktop | 🔄 接力 | Codex + Hermes 内的 Codex 都用同一个 codex-auto-review 上游（平台后端挂）。Hermes WebUI 鉴权 401 拿不到。claude-desktop 本地 Python urllib 直接抓 HN+GitHub 80 条真信号，写第 2 篇 AI 爆金日记，推 vault OK |
 | 15:30 | claude-desktop | 🔧 SMS 验证网关 | VirtualSMS.io MCP 接入完成：`.claude.json` 添加 virtualsms MCP Server、`sms-gateway/test_virtualsms.py` 验证脚本（discover/balance/flow/cheapest 四个命令）、API 连通性验证通过（46 服务/7 国家）。待用户注册获取 API Key 后即可用。路径: `D:/claude desktop/sms-gateway/` |
 | 14:45 | claude-desktop | 🔧 android-chat-bridge | 独立 Android 模拟器模块完成 (6 文件): `main.py` 入口 (start/status/sync/stop/test), `emu_manager.py` 生命周期+后台隐藏, `health_monitor.py` 健康守护+自动重启+告警, `chat_sync.py` ADB截图+OCR+增量去重写入Vault, `config.py`+`requirements.txt`。路径: `D:/claude desktop/android-chat-bridge/` |
