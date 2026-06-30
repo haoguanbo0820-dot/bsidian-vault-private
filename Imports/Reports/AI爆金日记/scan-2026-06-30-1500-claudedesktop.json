@@ -1,0 +1,424 @@
+{
+  "ts": "2026-06-30T15:22:33.671346",
+  "agent": "claude-desktop",
+  "sources": {
+    "hn_front_page": {
+      "status": "ok",
+      "count": 30,
+      "hits": [
+        {
+          "title": "Qwen 3.6 27B is the sweet spot for local development",
+          "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+          "points": 844
+        },
+        {
+          "title": "US Supreme Court rules geofence warrants require constitutional protections",
+          "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+          "points": 509
+        },
+        {
+          "title": ".self: A new top-level domain designed to support self-hosting",
+          "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+          "points": 452
+        },
+        {
+          "title": "Rocketlab acquires Iridium",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+          "points": 395
+        },
+        {
+          "title": "Free the Icons",
+          "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+          "points": 391
+        },
+        {
+          "title": "A native graphical shell for SSH",
+          "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+          "points": 287
+        },
+        {
+          "title": "What happens when you run a CUDA kernel?",
+          "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+          "points": 249
+        },
+        {
+          "title": "One million passports leaked online",
+          "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal",
+          "points": 235
+        },
+        {
+          "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+          "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+          "points": 207
+        },
+        {
+          "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+          "url": "https://humphri.es/blog/WATaBoy/",
+          "points": 201
+        },
+        {
+          "title": "Dark Sky Lighting",
+          "url": "https://www.savingourstars.org/darkskylighting#whatisdarkskylighting",
+          "points": 197
+        },
+        {
+          "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+          "url": "https://github.com/deepreinforce-ai/Ornith-1",
+          "points": 196
+        },
+        {
+          "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+          "url": "https://arxiv.org/abs/2606.22283",
+          "points": 154
+        },
+        {
+          "title": "Working With AI: A concrete example",
+          "url": "https://htmx.org/essays/working-with-ai/",
+          "points": 142
+        },
+        {
+          "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+          "url": "https://longcat.chat/blog/longcat-2.0/",
+          "points": 105
+        },
+        {
+          "title": "Memory Safe Context Switching",
+          "url": "https://fil-c.org/context_switches",
+          "points": 98
+        },
+        {
+          "title": "Linux for the Sega MegaDrive",
+          "url": "https://github.com/LinuxMD/linuxmd",
+          "points": 79
+        },
+        {
+          "title": "Popping the GPU Bubble",
+          "url": "https://moondream.ai/blog/popping-the-gpu-bubble",
+          "points": 77
+        },
+        {
+          "title": "Study suggests most Americans would be healthier without daylight saving time",
+          "url": "https://med.stanford.edu/news/all-news/2025/09/daylight-saving-time.html",
+          "points": 73
+        },
+        {
+          "title": "Kb – Prolog Knowledge Base",
+          "url": "https://github.com/mat-mgm/kb-prolog",
+          "points": 66
+        },
+        {
+          "title": "Exploring PDP-1 Lisp (1960)",
+          "url": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+          "points": 55
+        },
+        {
+          "title": "How to corrupt an SQLite database file",
+          "url": "https://www.sqlite.org/howtocorrupt.html",
+          "points": 53
+        },
+        {
+          "title": "Zig – SPIR-V Backend Progress",
+          "url": "https://ziglang.org/devlog/2026/#2026-06-26",
+          "points": 49
+        },
+        {
+          "title": "Alan Kay on the meaning of \"object-oriented programming\" (2003)",
+          "url": "https://notes.shixiangxi.com/en/docs/appendix/alan-kay-on-oop/",
+          "points": 49
+        },
+        {
+          "title": "Old Computer Challenge",
+          "url": "http://occ.sdf.org/",
+          "points": 48
+        },
+        {
+          "title": "US Supreme Court Just Blew Up EU-US Data Transfers",
+          "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+          "points": 46
+        },
+        {
+          "title": "Open Source Low Tech",
+          "url": "https://opensourcelowtech.org/",
+          "points": 32
+        },
+        {
+          "title": "British Origami: the 1955 exhibition by Akira Yoshizawa (2005)",
+          "url": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/",
+          "points": 29
+        },
+        {
+          "title": "Philae's extraordinary comet landing relived (2024)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Philae_s_extraordinary_comet_landing_relived",
+          "points": 18
+        },
+        {
+          "title": "The end of the AArch64 desktop experiment",
+          "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+          "points": 16
+        }
+      ]
+    },
+    "hn_show_hn": {
+      "status": "ok",
+      "count": 30,
+      "hits": [
+        {
+          "title": "Show HN: This up votes itself",
+          "url": "http://news.ycombinator.com/vote?for=3742902&dir=up&whence=%6e%65%77%65%73%74",
+          "points": 3531
+        },
+        {
+          "title": "Show HN: Gemini Pro 3 imagines the HN front page 10 years from now",
+          "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+          "points": 3346
+        },
+        {
+          "title": "Show HN: I made an open-source laptop from scratch",
+          "url": "https://www.byran.ee/posts/creation/",
+          "points": 3237
+        },
+        {
+          "title": "Show HN: If YouTube had actual channels",
+          "url": "https://ytch.xyz",
+          "points": 2741
+        },
+        {
+          "title": "Show HN: A retro video game console I've been working on in my free time",
+          "url": "https://internalregister.github.io/2019/03/14/Homebrew-Console.html",
+          "points": 2690
+        },
+        {
+          "title": "Show HN: Redbean – Single-file distributable web server",
+          "url": "https://justine.lol/redbean/index.html",
+          "points": 1998
+        },
+        {
+          "title": "Show HN: Non.io, a Reddit-like platform Ive been working on for the last 4 years",
+          "url": "https://non.io",
+          "points": 1943
+        },
+        {
+          "title": "Show HN: I may have created a new type of puzzle",
+          "url": "http://www.dogbunnypuzzle.com/",
+          "points": 1859
+        },
+        {
+          "title": "Show HN: I 3D scanned the interior of the Great Pyramid at Giza",
+          "url": "https://giza.mused.org/en/guided/266/inside-the-great-pyramid",
+          "points": 1752
+        },
+        {
+          "title": "Show HN: Web Design in 4 minutes",
+          "url": "http://jgthms.com/web-design-in-4-minutes/",
+          "points": 1624
+        },
+        {
+          "title": "Show HN: I made a site where you practice typing by retyping entire novels",
+          "url": "http://typelit.io",
+          "points": 1589
+        },
+        {
+          "title": "Show HN: I got laid off from Meta and created a minor hit on Steam",
+          "url": null,
+          "points": 1581
+        },
+        {
+          "title": "Show HN: Jmail – Google Suite for Epstein files",
+          "url": "https://www.jmail.world",
+          "points": 1557
+        },
+        {
+          "title": "Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights",
+          "url": "https://jameshard.ing/pilot",
+          "points": 1539
+        },
+        {
+          "title": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
+          "url": "https://airma.sh/",
+          "points": 1535
+        },
+        {
+          "title": "Show HN: Beeper Mini – iMessage client for Android",
+          "url": "https://www.beeper.com/",
+          "points": 1521
+        },
+        {
+          "title": "Show HN: Homebrew 6.0.0",
+          "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+          "points": 1481
+        },
+        {
+          "title": "Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing",
+          "url": "https://github.com/DidierRLopes/GamestonkTerminal",
+          "points": 1422
+        },
+        {
+          "title": "Show HN: GPT-4-powered web searches for developers",
+          "url": "https://www.phind.com",
+          "points": 1401
+        },
+        {
+          "title": "Show HN: I built a Rotten Tomatoes-style platform for durable products",
+          "url": "https://www.buyforlifeproducts.com/",
+          "points": 1392
+        },
+        {
+          "title": "Show HN: Meteor, a realtime JavaScript framework",
+          "url": "http://www.meteor.com",
+          "points": 1386
+        },
+        {
+          "title": "Show HN: Obsidian Canvas – An infinite space for your ideas",
+          "url": "https://obsidian.md/canvas",
+          "points": 1380
+        },
+        {
+          "title": "Show HN: 40k HN comments mentioning books, extracted using deep learning",
+          "url": "https://hacker-recommended-books.vercel.app/category/0/all-time/page/0/0",
+          "points": 1359
+        },
+        {
+          "title": "Show HN: I'm building an open-source Amazon",
+          "url": "https://openship.org/",
+          "points": 1335
+        },
+        {
+          "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
+          "url": "https://cannoneyed.com/isometric-nyc/",
+          "points": 1325
+        },
+        {
+          "title": "Show HN: Show HN",
+          "url": "https://news.ycombinator.com/show",
+          "points": 1302
+        },
+        {
+          "title": "Show HN: Portable Secret – How I store my secrets and communicate privately",
+          "url": "https://mprimi.github.io/portable-secret/",
+          "points": 1290
+        },
+        {
+          "title": "Show HN: Tetris in a PDF",
+          "url": "https://th0mas.nl/downloads/pdftris.pdf",
+          "points": 1289
+        },
+        {
+          "title": "Show HN: Bel",
+          "url": "http://paulgraham.com/bel.html",
+          "points": 1288
+        },
+        {
+          "title": "Show HN: I built a synth for my daughter",
+          "url": "https://bitsnpieces.dev/posts/a-synth-for-my-daughter/",
+          "points": 1278
+        }
+      ]
+    },
+    "github_trending": {
+      "status": "ok",
+      "count": 20,
+      "hits": [
+        {
+          "full_name": "codecrafters-io/build-your-own-x",
+          "stars": 520943,
+          "desc": "Master programming by recreating your favorite technologies from scratch."
+        },
+        {
+          "full_name": "sindresorhus/awesome",
+          "stars": 480002,
+          "desc": "😎 Awesome lists about all kinds of interesting topics"
+        },
+        {
+          "full_name": "freeCodeCamp/freeCodeCamp",
+          "stars": 450770,
+          "desc": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+        },
+        {
+          "full_name": "public-apis/public-apis",
+          "stars": 445100,
+          "desc": "A collective list of free APIs"
+        },
+        {
+          "full_name": "EbookFoundation/free-programming-books",
+          "stars": 391006,
+          "desc": ":books: Freely available programming books"
+        },
+        {
+          "full_name": "openclaw/openclaw",
+          "stars": 381066,
+          "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+        },
+        {
+          "full_name": "nilbuild/developer-roadmap",
+          "stars": 358668,
+          "desc": "Interactive roadmaps, guides and other educational content to help developers grow in their careers."
+        },
+        {
+          "full_name": "donnemartin/system-design-primer",
+          "stars": 355483,
+          "desc": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."
+        },
+        {
+          "full_name": "jwasham/coding-interview-university",
+          "stars": 354607,
+          "desc": "A complete computer science study plan to become a software engineer."
+        },
+        {
+          "full_name": "vinta/awesome-python",
+          "stars": 305559,
+          "desc": "An opinionated list of Python frameworks, libraries, tools, and resources"
+        },
+        {
+          "full_name": "awesome-selfhosted/awesome-selfhosted",
+          "stars": 301954,
+          "desc": "A list of Free Software network services and web applications which can be hosted on your own servers"
+        },
+        {
+          "full_name": "996icu/996.ICU",
+          "stars": 276337,
+          "desc": "Repo for counting stars and contributing. Press F to pay respect to glorious developers."
+        },
+        {
+          "full_name": "practical-tutorials/project-based-learning",
+          "stars": 271390,
+          "desc": "Curated list of project-based tutorials"
+        },
+        {
+          "full_name": "react/react",
+          "stars": 246316,
+          "desc": "The library for web and native user interfaces."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "stars": 241806,
+          "desc": "An agentic skills framework & software development methodology that works."
+        },
+        {
+          "full_name": "torvalds/linux",
+          "stars": 238039,
+          "desc": "Linux kernel source tree"
+        },
+        {
+          "full_name": "trimstray/the-book-of-secret-knowledge",
+          "stars": 230898,
+          "desc": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "stars": 223621,
+          "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        },
+        {
+          "full_name": "TheAlgorithms/Python",
+          "stars": 222313,
+          "desc": "All Algorithms implemented in Python"
+        },
+        {
+          "full_name": "vuejs/vue",
+          "stars": 210091,
+          "desc": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core"
+        }
+      ]
+    }
+  }
+}
