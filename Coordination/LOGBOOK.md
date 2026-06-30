@@ -16,6 +16,7 @@
 | 15:36 | claude-desktop | 📰 顶班跑 | AI 爆金日记第 3 篇：HN 60 + GitHub 20 = 80 条真信号。SOP 第一次正式跑通。[[Imports/Reports/AI爆金日记/AI爆金日记-2026-06-30-15-36]] |
 | 15:50 | claude-desktop | 🔍 评估 | 国内 4 平台抓取方案：小红书/抖音/京东/淘宝 全 200 但搜内容要登录。6/29 已试过 0 条。三种路径：CDP / Cookie / 只跑电商 API。[[Imports/Reports/AI爆金日记/Codex-国内平台评估-2026-06-30]] |
 | 15:43 | claude-desktop | 🇨🇳 顶班跑 | AI 爆金日记第 4 篇：5 国内平台扫描。**B 站 100 条** ✅；闲鱼 API 失效 / 京东 21 字符 / 知乎 401 / 微博 403。结论：B 站裸抓可用但 95% 娱乐内容，**国内平台要 CDP 或 Cookie**。[[Imports/Reports/AI爆金日记/AI爆金日记-2026-06-30-15-43-cn]] |
+| 15:55 | claude-desktop | 🤖 评估 | Multi-agent 集群方案：Hermes 装 Playwright + 系统 Edge 实测。**能行**但 headless 抓不到国内 4 平台（都触发登录墙）。**必须主人开 CDP 远程端口**（1 个动作）。3 路径：A CDP / B Cookie / C 只海外+B 站。[[Imports/Reports/AI爆金日记/Multi-agent集群方案-2026-06-30]] |
 | 15:25 | claude-desktop | 🔄 接力 | Codex + Hermes 内的 Codex 都用同一个 codex-auto-review 上游（平台后端挂）。Hermes WebUI 鉴权 401 拿不到。claude-desktop 本地 Python urllib 直接抓 HN+GitHub 80 条真信号，写第 2 篇 AI 爆金日记，推 vault OK |
 | 15:30 | claude-desktop | 🔧 SMS 验证网关 | VirtualSMS.io MCP 接入完成：`.claude.json` 添加 virtualsms MCP Server、`sms-gateway/test_virtualsms.py` 验证脚本（discover/balance/flow/cheapest 四个命令）、API 连通性验证通过（46 服务/7 国家）。待用户注册获取 API Key 后即可用。路径: `D:/claude desktop/sms-gateway/` |
 | 14:45 | claude-desktop | 🔧 android-chat-bridge | 独立 Android 模拟器模块完成 (6 文件): `main.py` 入口 (start/status/sync/stop/test), `emu_manager.py` 生命周期+后台隐藏, `health_monitor.py` 健康守护+自动重启+告警, `chat_sync.py` ADB截图+OCR+增量去重写入Vault, `config.py`+`requirements.txt`。路径: `D:/claude desktop/android-chat-bridge/` |
