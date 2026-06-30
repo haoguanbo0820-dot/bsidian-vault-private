@@ -63,6 +63,11 @@ py auto_reply.py --test         # 分类器自检
 
 | 文件 | 说明 |
 |------|------|
+| [[Hermes-wechat-sync-plan\|消息同步计划]] | SQLite 持久化 + 增量同步 + 计划任务 |
+| [[Hermes-knowledge-base-design\|知识库设计]] | 物流业务知识库 schema + AI prompt + 外部事件 |
+| [[Hermes-knowledge-base-plan\|知识库实现计划]] | 7 任务分步实现指南 |
+| [[Hermes-audit-report\|代码审计]] | 68/100 工程化评估 |
+| [[Hermes-client-visit-script\|客户拜访稿]] | 成全物流 牟姐 · 30 分钟上门逐字稿 |
 | `PRD-AI-ASSISTANT-MISSING.md` | 完整 PRD：现有功能 vs 缺失功能 |
 | `CLAUDE-CODE-INSTRUCTIONS.md` | Claude Code 接手开发的启动指令 |
 | `auto_reply/README.md` | auto_reply 项目 README |
