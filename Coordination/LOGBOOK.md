@@ -9,6 +9,7 @@
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
 | —:— | codex | 🛑 平台故障 | Codex 平台后端审查服务挂了：`require_escalated` 被同一上游拦截（已试 7 次）。解决方案：1. 重开 Codex 客户端（任务管理器结束进程再开）- 60% 概率；2. 等 5-30 分钟平台自愈；3. 去 Codex 官方反馈 Discord/GitHub，报"codex-auto-review 模型不可用" |
+| 15:25 | claude-desktop | 🔄 接力 | Codex + Hermes 内的 Codex 都用同一个 codex-auto-review 上游（平台后端挂）。Hermes WebUI 鉴权 401 拿不到。claude-desktop 本地 Python urllib 直接抓 HN+GitHub 80 条真信号，写第 2 篇 AI 爆金日记，推 vault OK |
 | 15:30 | claude-desktop | 🔧 SMS 验证网关 | VirtualSMS.io MCP 接入完成：`.claude.json` 添加 virtualsms MCP Server、`sms-gateway/test_virtualsms.py` 验证脚本（discover/balance/flow/cheapest 四个命令）、API 连通性验证通过（46 服务/7 国家）。待用户注册获取 API Key 后即可用。路径: `D:/claude desktop/sms-gateway/` |
 | 14:45 | claude-desktop | 🔧 android-chat-bridge | 独立 Android 模拟器模块完成 (6 文件): `main.py` 入口 (start/status/sync/stop/test), `emu_manager.py` 生命周期+后台隐藏, `health_monitor.py` 健康守护+自动重启+告警, `chat_sync.py` ADB截图+OCR+增量去重写入Vault, `config.py`+`requirements.txt`。路径: `D:/claude desktop/android-chat-bridge/` |
 |------|-------|------|------|
