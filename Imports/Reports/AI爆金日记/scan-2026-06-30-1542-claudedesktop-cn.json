@@ -1,0 +1,132 @@
+{
+  "ts": "2026-06-30T15:42:14.173564",
+  "agent": "claude-desktop",
+  "mode": "topban-cn",
+  "sources": {
+    "xianyu_ai_fuye": {
+      "status": "http_check",
+      "code": 200,
+      "snippet": "{\"api\":\"\",\"v\":\"\",\"ret\":[\"FAIL_SYS_API_NOT_FOUNDED::请求API不存在\"],\"data\":{}}"
+    },
+    "jd_ai_fuye": {
+      "status": "ok",
+      "code": 200,
+      "titles_found": 0,
+      "first_10": []
+    },
+    "zhihu_hot": {
+      "status": "err",
+      "error": "HTTP Error 401: Authorization Required"
+    },
+    "bilibili_hot": {
+      "status": "ok",
+      "count": 100,
+      "items": [
+        {
+          "title": "找到了10年前跪舔b站的视频",
+          "author": null,
+          "play": 12032838
+        },
+        {
+          "title": "把毒品藏在哪里，60秒内不会被发现？",
+          "author": null,
+          "play": 8426271
+        },
+        {
+          "title": "\"超算小姐，这一次，我一定要带你出去...\"",
+          "author": null,
+          "play": 4188578
+        },
+        {
+          "title": "致敬！中国首批缉毒警已全体退休",
+          "author": null,
+          "play": 1501910
+        },
+        {
+          "title": "“错误的标准答案见多了，第一次见如此超模的正解”【AI教育の小曲】【灰色轨迹尾奏-DJ】",
+          "author": null,
+          "play": 4008994
+        },
+        {
+          "title": "《虎吹最难绷の一集》",
+          "author": null,
+          "play": 5017298
+        },
+        {
+          "title": "左手《Luvsic》，右手《夜，萤火虫和你》，是什么感觉？",
+          "author": null,
+          "play": 15564656
+        },
+        {
+          "title": "《原神》角色预告-「桑多涅：致新生」",
+          "author": null,
+          "play": 890373
+        },
+        {
+          "title": "尸潮来袭！开局一辆车如何在无穷的高架桥上存活下去！！「高架惊变100天2」",
+          "author": null,
+          "play": 1656904
+        },
+        {
+          "title": "苗族银饰",
+          "author": null,
+          "play": 1951651
+        },
+        {
+          "title": "《鸣潮》玄方主题曲 MV | 定玄",
+          "author": null,
+          "play": 2220753
+        },
+        {
+          "title": "大 周 礼 时 代(4)",
+          "author": null,
+          "play": 5363739
+        },
+        {
+          "title": "诋毁袁隆平、抹黑无底线：农业造谣者有多无法无天",
+          "author": null,
+          "play": 2562562
+        },
+        {
+          "title": "下飞机后，我做了个很蠢的决定......",
+          "author": null,
+          "play": 7052103
+        },
+        {
+          "title": "被诋毁的“三系杂交稻”到底有多牛？看懂它才能看懂中国饭碗【主播说三农】",
+          "author": null,
+          "play": 1133654
+        },
+        {
+          "title": "重庆真的是一个8D魔幻城市，谁来都得晕，太离谱了！",
+          "author": null,
+          "play": 3586623
+        },
+        {
+          "title": "【乘风2026】总决赛-《想见你想见你想见你》张月&陈瑶 愿所有想念都能在我们的歌声里靠岸",
+          "author": null,
+          "play": 1545782
+        },
+        {
+          "title": "啥比桑吉尔夫排位练蓝防（最不抽象的一集）",
+          "author": null,
+          "play": 1402227
+        },
+        {
+          "title": "全球首发！核电站彩蛋！36位密码门！空气墙迷宫我们整出来啦！「三角洲S10赛季」",
+          "author": null,
+          "play": 2403356
+        },
+        {
+          "title": "我跟你说件事你别生气...",
+          "author": null,
+          "play": 2082689
+        }
+      ]
+    },
+    "weibo_hot": {
+      "status": "err",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ts": "2026-06-30T15:43:06.770609",
+  "agent": "claude-desktop",
+  "mode": "topban-cn-v2",
+  "sources": {
+    "xianyu": {
+      "status": "js_rendered",
+      "code": 200,
+      "titles": [],
+      "has_redirect": false
+    },
+    "jd": {
+      "status": "no_titles",
+      "code": 200,
+      "titles": [],
+      "body_len": 21
+    },
+    "zhihu": {
+      "status": "err",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "weibo": {
+      "status": "err",
+      "error": "<urlopen error timed out>"
+    }
+  }
+}
