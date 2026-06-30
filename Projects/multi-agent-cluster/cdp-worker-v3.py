@@ -44,20 +44,35 @@ def fetch_weibo_new_tab(context):
         print("[微博] 打开热搜页...")
         page.goto("https://s.weibo.com/top/summary", timeout=30000, wait_until="domcontentloaded")
         page.wait_for_timeout(8000)
-        # 微博热搜：table tbody tr，tr 包含 td-01（排名）、td-02（标题）、td-03（热度）
+        # 微博热搜在 #pl_top_realtimehot 里
         rows = page.locator('#pl_top_realtimehot table tbody tr').all()
         print(f"  找到 #pl_top_realtimehot tr: {len(rows)}")
-        if not rows:
-            rows = page.locator('table tbody tr').all()
-            print(f"  备用: table tr {len(rows)}")
         results = []
         for i, row in enumerate(rows[:30], 1):
             try:
-                tds = row.locator('td').all()
-                if len(tds) >= 2:
-                    title = tds[1].inner_text().strip()
+                # 解析 tr 文本: 用 \t 分隔
+                # "1\t金鹰奖最佳女主角候选 盛典 1808137\t热"
+                text = row.evaluate('el => el.innerText').strip()
+                parts = [p.strip() for p in text.split('\t') if p.strip()]
+                if len(parts) >= 2:
+                    rank_str = parts[0]
+                    # 跳过置顶（无数字）
+                    if not rank_str.isdigit():
+                        continue
+                    title_line = parts[1]
+                    # 标题 = 第一个非数字 token
+                    tokens = title_line.split()
+                    title_parts = []
+                    heat = ""
+                    for tok in tokens:
+                        if tok.isdigit() and len(tok) >= 4:
+                            heat = tok
+                        else:
+                            title_parts.append(tok)
+                    title = ' '.join(title_parts).strip()
                     if title and len(title) > 1:
-                        results.append({"rank": i, "title": title[:100]})
+                        tag = parts[2] if len(parts) >= 3 else ""
+                        results.append({"rank": int(rank_str), "title": title[:100], "heat": heat, "tag": tag})
             except Exception:
                 pass
         return results
