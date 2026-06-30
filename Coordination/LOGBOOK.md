@@ -8,7 +8,10 @@
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
+| 11:30 | claude-desktop | 🤝 授权 | 给 codex CEL 项目读+LOGBOOK 写+SESSIONS 写权限，handoff→codex 已写入 SESSIONS/ |
+| 11:30 | claude-desktop | 📥 代推 | Codex AI爆金日记-2026-06-30 复制到 vault（sandbox 写不动 D:，claude-desktop 代推） |
 | 10:15 | claude-desktop | 🚀 系统升级 | P0-P3 四项升级完成：业务上下文注入+报告结构优化+LOGBOOK集成+历史交叉引用 |
+| 10:45 | claude-desktop | 📊 Marvis 历史 | 全量审计 Marvis 16 个 state JSON：6/6-6/10 共 5 种任务 16 次执行，详情→[[marvis-tasks]] |
 | 10:30 | claude-desktop | 🔧 Marvis 接入 | Marvis 通过 vault_coordinator.py 接入自动协调系统，5 Agent 全部协调完毕 |
 | 10:00 | claude-desktop | 📥 导入 | 微信日报全部报告(22文件)导入 vault Imports/WeChatDaily/，含15份日报+周报+月报 |
 
