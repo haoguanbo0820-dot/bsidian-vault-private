@@ -58,10 +58,21 @@ MainAgent (总调度)
 | 问题 | 状态 | 说明 |
 |------|:--:|------|
 | Vault 协调 | ✅ | `vault_coordinator.py`（2026-06-30 接入） |
+| 聊天提取 | ✅ | `chat_extractor.py`（2026-06-30 新增） |
 | Scheduler | ⚠️ | `scheduler.json` 不存在，未配置定时任务 |
 | max_steps | ⚠️ | 默认 15，复杂任务可能不够 |
+
+## 聊天提取任务
+
+`chat_extractor.py` — 截图+OCR 方案，无需解密：
+- `python run_extract.py dingtalk` → `Imports/钉钉/`
+- `python run_extract.py wechat` → `Imports/微信/`
+- `python run_extract.py all` → 两个都提取
+
+详见 [[SOP/android-chat-extract|Android 聊天提取 SOP]]
 
 ## 启动前检查
 
 1. MuMu 模拟器已启动且 `adb devices` 确认 `127.0.0.1:14016` online
-2. vault_coordinator 自动生效：任务前后自动拉取/推送 vault
+2. 钉钉/微信已在模拟器中登录
+3. vault_coordinator 自动生效：任务前后自动拉取/推送 vault

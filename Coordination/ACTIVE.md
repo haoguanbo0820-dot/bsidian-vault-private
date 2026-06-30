@@ -6,7 +6,7 @@
 
 | 任务 | Agent | 开始时间 | 预计 |
 |------|-------|----------|------|
-| CEL 揽收端 AI 采集方案修正（4 gap） | claude-desktop | 2026-06-30 | 待主人确认 |
+| CEL 揽收端 AI 采集方案修正（4 gap） | claude-desktop | 2026-06-30 | ✅ 已完成 |
 | AI爆金日记 每日采集+推vault | codex → claude-desktop | 2026-06-30 | 每日持续 |
 
 ## 等待中
