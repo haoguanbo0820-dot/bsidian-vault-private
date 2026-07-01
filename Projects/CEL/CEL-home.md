@@ -64,9 +64,10 @@
 1. **揽收端 AI 采集系统** — 用多模态 AI 替代光照机，6 节点全生命周期追踪
 2. **昌恩运营异常** — 每周跟踪，最近的反馈 6/23 已出
 3. **Ozon 罚款/抵扣赔偿** — 4月/5月/Q1 罚款数据 + 2026年抵扣赔偿
-4. **Ozon 接口对接** — `Instruction for Export broker API (test).docx`
-5. **华东仓整改** — 6/18 收到整改反馈
-6. **Yandex 跨境物流分析** — 分析报告 Final 版本
+4. **🔴 1 卢布货值问题**（Ozon 平台积分活动引发的报关风险）— 详见 [[CEL-1卢布货值问题]]
+5. **Ozon 接口对接** — `Instruction for Export broker API (test).docx`
+6. **华东仓整改** — 6/18 收到整改反馈
+7. **Yandex 跨境物流分析** — 分析报告 Final 版本
 
 ## WeChat 工作群
 
