@@ -6,7 +6,8 @@
 
 | 任务 | Agent | 开始时间 | 预计 |
 |------|-------|----------|------|
-| **多 Agent 任务队列 + 抢单机制 v2 上线** | claude-desktop | 2026-07-01 16:30 | ✅ 已落地，等 Marvis/Hermes 下次启动扫队列 |
+| **多 Agent 模型分工配置（D004）落地** | claude-desktop | 2026-07-01 17:30 | ✅ Claude Desktop env 已配 + 4 个 handoff 已写 |
+| 多 Agent 任务队列 + 抢单机制 v2 上线 | claude-desktop | 2026-07-01 16:30 | ✅ 已落地，等 Marvis/Hermes 下次启动扫队列 |
 | OpenJarvis 本地安装 + 烟测 | claude-desktop | 2026-07-01 | ✅ Python 链路通；Rust 扩展待定 |
 | AI爆金日记 每日采集+推vault | codex → claude-desktop | 2026-06-30 | 每日持续（T-20260701-001 pending） |
 
