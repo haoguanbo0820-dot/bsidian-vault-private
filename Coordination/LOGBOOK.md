@@ -8,6 +8,7 @@
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
+| 18:00 | claude-desktop | 🎯 **第二大脑主文档落 vault** | 主人要求把多 Agent 调度逻辑 + 配置信息写到第二大脑（Obsidian Vault）。写 [[README.md]]（vault 根目录）：5 Agent 分工表 / v2 抢单机制 / 模型分工省钱策略 / 全部 API key 清单 / 工作流 / 决策日志 / 目录结构 / 活跃任务。CLAUDE.md 加引用指向 README。**第二大脑现在一打开就懂**。 |
 | 17:30 | claude-desktop | 🎯 **多 Agent 模型分工配置（D004）落地** | 主人纠正 2 次模型定位：M3=Coding 订阅量大管饱 / DeepSeek Pro=按量有成本 / GLM 5.2=限流专项。最终方案：M3 给 Coding 类 agent（Claude Desktop/Hermes/Marvis 本质都干 Coding 活）/ DeepSeek Pro 日常杂活 / GLM 5.2 留给 Codex GUI 触发 / Trae CN 火山豆包。**Claude Desktop env 已配**（settings.json 加 4 个备援 API key：DeepSeek/Volc Ark/Zhipu + M3 主用）。**4 handoff 写好**（Hermes/Marvis/Codex/Trae CN），等它们启动时按新配置加载。[[Coordination/ModelConfig-2026-07-01]] + D004 决策。 |
 | 16:30 | claude-desktop | 🎯 **多 Agent 调度方案 v2 落地** | 主人授权"我是大脑"，走 brainstorming 流程（3 问 + 3 方案 + 推荐 B）。**核心升级**：从 v1 "我大脑"被动 handoff → v2 "任务队列 + 抢单机制"。建 4 文件：QUEUE.json（含 T-20260701-001 跑爆金日记 + T-20260701-002 通知 agent）/ QUEUE.suggested.json / HEARTBEAT.md（5 agent 状态）/ HANDOFFS/ 目录（含 Marvis/Hermes 抢单协议）。**入队权**：主人+我直接，其他 agent 建议；**抢单权**：所有 5 agent 都行；**汇报**：触发式 4 种（完成/挂/撞车/GUI）。**关键改进**：去单点故障（我挂主人 30min 接管）/ 不超载（任务分到特长）/ 主动抢单（不是被动 handoff）。[[Coordination/分工设计-2026-07-01]] + [[Coordination/QUEUE]] + [[Coordination/HEARTBEAT]] + D003 决策。 |
 | 16:00 | claude-desktop | 🔍 Trae CN 实测 | 路径 `C:\Users\hao\AppData\Local\Programs\Trae CN\Trae CN.exe` ✅ 确认装好；debug.log 显示最后启动 6/29 10:26（24 天前）；tasklist 无进程在跑；token=0 闲置。**结论**：Trae CN 是字节 IDE（类 Cursor），需主人 GUI 充值才能用，纳入调度 v2 体系当"国内 LLM 备用 agent"（需 GUI 触发） |

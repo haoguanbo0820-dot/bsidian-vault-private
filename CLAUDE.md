@@ -3,6 +3,8 @@
 > 这是郝冠的的知识库，也是**所有 AI Agent 的单一真相源**。
 >
 > 5 个 Agent 协调工作：Claude Desktop / Claude Code / Codex / Hermes / Marvis
+>
+> 📖 **主人看的入口** → [[README]]（第二大脑主文档，多 Agent 调度逻辑 + 配置信息）
 
 ## 每个 Agent 必须遵守（不管什么任务）
 
