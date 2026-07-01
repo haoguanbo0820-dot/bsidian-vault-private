@@ -14,7 +14,7 @@
 |---|---|
 | **主模型** | **GLM 5.2**（限流专项 = 留给你的） |
 | **base_url** | https://ark.cn-beijing.volces.com/api/coding |
-| **API Key** | api-key-20260308224717 |
+| **API Key** | {{见 APIkey.docx}} |
 | **模型名** | ark-code-latest（Auto 智能选 GLM 5.2） |
 
 ## ⚠️ 重要
@@ -27,7 +27,7 @@
 2. Settings → API Configuration：
    - Provider: Volcano Ark (Custom)
    - Base URL: https://ark.cn-beijing.volces.com/api/coding
-   - API Key: api-key-20260308224717
+   - API Key: {{见 APIkey.docx}}
    - Model: ark-code-latest
 
 3. 重启 Codex 桌面 App

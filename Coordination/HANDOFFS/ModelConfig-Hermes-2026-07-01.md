@@ -16,10 +16,10 @@
 |---|---|
 | **主模型** | **MiniMax-M3**（Coding 订阅 量大管饱） |
 | **base_url** | https://api.minimaxi.com/anthropic |
-| **API Key** | sk-cp-xv9laq12ZSkVvPfOe3rUXeMeyIK4tX5mPiD2DjsK4Ee648MXJGu_9Eo0GPBC475PPvJFRYL5zTrW8N3gOrhg4p3FN5c5AKY6RY6dK3zWB-R6Y6o4K7Kknhw |
+| **API Key** | {{见 APIkey.docx}} |
 | **备用** | 智谱 GLM-4.5-flash（你当前用的） |
 | **备援 base_url** | https://open.bigmodel.cn/api/anthropic |
-| **备援 Key** | 21f8cb4476a44c33be07613a5400b3af.au8UX7ZmAD5Wbo3c |
+| **备援 Key** | {{见 APIkey.docx}} |
 
 ## 配置步骤（你阿里云那边）
 
@@ -27,10 +27,10 @@
    ```yaml
    primary_model: MiniMax-M3
    primary_url: https://api.minimaxi.com/anthropic
-   primary_key: sk-cp-xv9laq12ZSkVvPfOe3rUXeMeyIK4tX5mPiD2DjsK4Ee648MXJGu_9Eo0GPBC475PPvJFRYL5zTrW8N3gOrhg4p3FN5c5AKY6RY6dK3zWB-R6Y6o4K7Kknhw
+   primary_key: {{见 APIkey.docx}}
    fallback_model: glm-4.5-flash
    fallback_url: https://open.bigmodel.cn/api/anthropic
-   fallback_key: 21f8cb4476a44c33be07613a5400b3af.au8UX7ZmAD5Wbo3c
+   fallback_key: {{见 APIkey.docx}}
    ```
 
 2. 重启 Hermes Agent

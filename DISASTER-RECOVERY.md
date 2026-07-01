@@ -118,14 +118,14 @@ winget install Anthropic.ClaudeDesktop
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "PROXY_MANAGED",
     "ANTHROPIC_BASE_URL": "http://127.0.0.1:15721",
-    "API_KEY": "sk-cp-xv9laq12ZSkVvPfOe3rUXeMeyIK4tX5mPiD2DjsK4Ee648MXJGu_9Eo0GPBC475PPvJFRYL5zTrW8N3gOrhg4p3FN5c5AKY6RY6dK3zWB-R6Y6o4K7Kknhw",
+    "API_KEY": "{{见 APIkey.docx}}",
     "API_URL": "https://api.minimaxi.com/anthropic",
-    "DEEPSEEK_API_KEY": "sk-7a94da46ef44467e97289151a111a2c4",
+    "DEEPSEEK_API_KEY": "{{见 APIkey.docx}}",
     "DEEPSEEK_BASE_URL": "https://api.deepseek.com/anthropic",
-    "VOLC_ARK_API_KEY": "api-key-20260308224717",
+    "VOLC_ARK_API_KEY": "{{见 APIkey.docx}}",
     "VOLC_ARK_BASE_URL": "https://ark.cn-beijing.volces.com/api/coding",
     "VOLC_ARK_MODEL": "ark-code-latest",
-    "ZHIPU_API_KEY": "21f8cb4476a44c33be07613a5400b3af.au8UX7ZmAD5Wbo3c"
+    "ZHIPU_API_KEY": "{{见 APIkey.docx}}"
   },
   "theme": "dark"
 }

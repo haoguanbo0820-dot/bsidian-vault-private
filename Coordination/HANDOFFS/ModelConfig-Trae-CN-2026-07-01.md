@@ -14,7 +14,7 @@
 |---|---|
 | **主模型** | **火山豆包 1.6-pro**（包月） |
 | **base_url** | https://ark.cn-beijing.volces.com/api/v3 |
-| **API Key** | api-key-20260308224717 |
+| **API Key** | {{见 APIkey.docx}} |
 | **模型名** | doubao-1-5-pro-32k-250115 或更新 |
 | **备用** | MiniMax-M3（同 API key 走 minimaxi.com） |
 
@@ -30,7 +30,7 @@
 3. Settings → Models：
    - Primary: 火山豆包 1.6-pro (via Volcano Ark)
    - URL: https://ark.cn-beijing.volces.com/api/v3
-   - Key: api-key-20260308224717
+   - Key: {{见 APIkey.docx}}
 4. 保存重启
 
 ## 何时使用

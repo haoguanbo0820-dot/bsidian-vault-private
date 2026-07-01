@@ -32,7 +32,7 @@
 |---|---|
 | **主模型** | MiniMax-M3 (Coding 订阅) |
 | **base_url** | https://api.minimaxi.com/anthropic |
-| **API Key** | sk-cp-xv9laq12ZSkVvPfOe3rUXeMeyIK4tX5mPiD2DjsK4Ee648MXJGu_9Eo0GPBC475PPvJFRYL5zTrW8N3gOrhg4p3FN5c5AKY6RY6dK3zWB-R6Y6o4K7Kknhw |
+| **API Key** | {{见 APIkey.docx}} |
 | **配置位置** | `C:/Users/hao/.claude/settings.json` env.API_URL |
 | **何时切 DeepSeek Pro** | 简单筛选/分类/省钱场景 |
 | **何时切 GLM 5.2** | 写大型代码/复杂逻辑/重要 review |
@@ -64,7 +64,7 @@
 |---|---|
 | **主模型** | **GLM 5.2**（限流专项 = 留给 Codex） |
 | **base_url** | https://ark.cn-beijing.volces.com/api/coding |
-| **API Key** | api-key-20260308224717 |
+| **API Key** | {{见 APIkey.docx}} |
 | **模型名** | ark-code-latest |
 | **何时用** | 主人 GUI 重启 + 后端恢复后 |
 | **当前状态** | 🔴 down（后端审查挂了） |
@@ -85,10 +85,10 @@
 
 | 用途 | 模型 | 平台 | Key |
 |---|---|---|---|
-| **图像生成** | 火山 SeeDream | 火山包月 | api-key-20260308224717 |
-| **视频生成** | 可灵 | klingai.com | An8PYpedfHBfAPRD83kFBTQnNmgmPRag |
+| **图像生成** | 火山 SeeDream | 火山包月 | {{见 APIkey.docx}} |
+| **视频生成** | 可灵 | klingai.com | {{见 APIkey.docx}} |
 | **视频备** | MiniMax Hailuo 2.3 / 2.3Fast | MiniMax 平台 | 同 M3 key |
-| **OCR** | 百度 OCR（APIkey 已有） | console.bce.baidu.com | ALTAKcnOdkv1s2zXjrPc3nWqDm |
+| **OCR** | 百度 OCR（APIkey 已有） | console.bce.baidu.com | {{见 APIkey.docx}} |
 
 ---
 
@@ -101,17 +101,17 @@
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "PROXY_MANAGED",
     "ANTHROPIC_BASE_URL": "http://127.0.0.1:15721",
-    "API_KEY": "sk-cp-xv9laq12ZSkVvPfOe3rUXeMeyIK4tX5mPiD2DjsK4Ee648MXJGu_9Eo0GPBC475PPvJFRYL5zTrW8N3gOrhg4p3FN5c5AKY6RY6dK3zWB-R6Y6o4K7Kknhw",
+    "API_KEY": "{{见 APIkey.docx}}",
     "API_URL": "https://api.minimaxi.com/anthropic",
 
-    "DEEPSEEK_API_KEY": "sk-7a94da46ef44467e97289151a111a2c4",
+    "DEEPSEEK_API_KEY": "{{见 APIkey.docx}}",
     "DEEPSEEK_BASE_URL": "https://api.deepseek.com/anthropic",
 
-    "VOLC_ARK_API_KEY": "api-key-20260308224717",
+    "VOLC_ARK_API_KEY": "{{见 APIkey.docx}}",
     "VOLC_ARK_BASE_URL": "https://ark.cn-beijing.volces.com/api/coding",
     "VOLC_ARK_MODEL": "ark-code-latest",
 
-    "ZHIPU_API_KEY": "21f8cb4476a44c33be07613a5400b3af.au8UX7ZmAD5Wbo3c"
+    "ZHIPU_API_KEY": "{{见 APIkey.docx}}"
   },
   "theme": "dark"
 }
