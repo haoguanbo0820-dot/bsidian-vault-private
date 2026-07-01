@@ -4,6 +4,10 @@
 > **建立**: 2026-07-01
 > **目的**: 一份文档看懂整个多 Agent 调度系统 + 所有配置
 
+## 🚨 电脑挂了？→ 看 [[DISASTER-RECOVERY]]
+
+任何机器 + 任何人照着 1-2 小时能恢复整套系统。
+
 ---
 
 ## 这是什么
@@ -244,7 +248,9 @@ claude-desktop（大脑）拆任务
 ```
 D:/ObsidianVault/
 ├── README.md (本文件)           ← 你正在看的
+├── DISASTER-RECOVERY.md         ← 🚨 电脑挂了恢复手册
 ├── CLAUDE.md                     ← Agent 协调协议
+├── BACKUP/                      ← 关键文件清单（备份用）
 ├── Coordination/                ← Agent 协调层（5 Agent 共享读写）
 │   ├── ACTIVE.md                ← 谁在做什么（任务前必读）
 │   ├── LOGBOOK.md               ← 操作日志（任务后必写）
