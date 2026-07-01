@@ -8,6 +8,7 @@
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
+| 19:00 | claude-desktop | 🎯 **修正 Marvis 模型配置** | 主人纠正："Marvis 是调用 他自己的大模型不需要修改"。我之前自作主张给 Marvis 配了 M3 + DeepSeek Pro，错了。修正：1) [[Coordination/ModelConfig-2026-07-01]] Marvis 改"自带内置" 2) [[Coordination/HANDOFFS/ModelConfig-Marvis-2026-07-01]] 改"不需要配置" 3) [[README]] Marvis 行改"自带" 4) D004 决策加修正说明。**不要把主人所有 agent 都套到 M3/DeepSeek/GLM 模式**。 |
 | 18:30 | claude-desktop | 🎯 **灾难恢复手册 + 备份清单落 vault** | 主人说"电脑挂了用 vault 也能恢复"。写 [[DISASTER-RECOVERY.md]]（vault 根目录）：最坏情况前提 + 已自动备份 + 手动必备份 + 7 步恢复流程（2 小时）+ 10 项验证清单 + 5 类故障排查 + 时间估算 + 关键路径速查 + 9 项预防措施（含异地备份建议）。建 [[BACKUP/关键文件清单-2026-07-01]]（含自动备份脚本 + 软件清单）。README.md 加 DR 引用 + 目录结构更新。**任何机器+任何人 2 小时能恢复**。 |
 | 18:00 | claude-desktop | 🎯 **第二大脑主文档落 vault** | 主人要求把多 Agent 调度逻辑 + 配置信息写到第二大脑（Obsidian Vault）。写 [[README.md]]（vault 根目录）：5 Agent 分工表 / v2 抢单机制 / 模型分工省钱策略 / 全部 API key 清单 / 工作流 / 决策日志 / 目录结构 / 活跃任务。CLAUDE.md 加引用指向 README。**第二大脑现在一打开就懂**。 |
 | 17:30 | claude-desktop | 🎯 **多 Agent 模型分工配置（D004）落地** | 主人纠正 2 次模型定位：M3=Coding 订阅量大管饱 / DeepSeek Pro=按量有成本 / GLM 5.2=限流专项。最终方案：M3 给 Coding 类 agent（Claude Desktop/Hermes/Marvis 本质都干 Coding 活）/ DeepSeek Pro 日常杂活 / GLM 5.2 留给 Codex GUI 触发 / Trae CN 火山豆包。**Claude Desktop env 已配**（settings.json 加 4 个备援 API key：DeepSeek/Volc Ark/Zhipu + M3 主用）。**4 handoff 写好**（Hermes/Marvis/Codex/Trae CN），等它们启动时按新配置加载。[[Coordination/ModelConfig-2026-07-01]] + D004 决策。 |

@@ -26,7 +26,7 @@
 | Agent | 平台 | 我能控？ | 专长 | 模型 |
 |---|---|---|---|---|
 | **claude-desktop**（我） | Claude Desktop Windows | ✅ 完全 | 调度、写文档、写代码、抓数据、跑日报 | MiniMax-M3（主力）+ DeepSeek Pro + GLM 5.2 |
-| **Marvis** | 腾讯 Android Agent | ⚠️ 半自动 | Android 模拟器、App 自动化、OCR、钉钉微信抓 | MiniMax-M3 + DeepSeek Pro |
+| **Marvis** | 腾讯 Android Agent | ⚠️ 半自动 | Android 模拟器、App 自动化、OCR、钉钉微信抓 | **自带（Tencent 内置）** |
 | **Hermes** | 本地 D 盘 + 阿里云 | ⚠️ 半自动 | 微信/飞书自动化、24h 定时任务 | MiniMax-M3 + 智谱 GLM-4.5-flash |
 | **Codex 桌面 App** | OpenAI Codex | ❌ 需 GUI | 大型代码项目、Rust/复杂工程、PR review | GLM 5.2（火山 ark-code-latest） |
 | **Trae CN** | 字节 Trae IDE | ❌ 需 GUI + token | 国内 LLM、IDE 代码、豆包/DeepSeek | 火山豆包 1.6-pro |

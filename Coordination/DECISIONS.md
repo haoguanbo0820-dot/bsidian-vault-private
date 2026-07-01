@@ -8,11 +8,12 @@
 
 ### D004: 多 Agent 模型分工配置（主人 2 次纠正后定稿）
 - **决策者**: claude-desktop + 郝冠的
-- **背景**: 主人纠正 3 次模型定位：M3=Coding 订阅量大管饱 / DeepSeek Pro=按量有成本 / GLM 5.2=限流限量专项。最终方案：M3 给 Coding 类 agent（Claude Desktop/Hermes/Marvis）/ DeepSeek Pro 给日常杂活省钱场景 / GLM 5.2 留给 Codex GUI 触发时专项 / Trae CN 走火山豆包包月
-- **决策**: Claude Desktop env 已配 M3 + DeepSeek Pro + GLM 5.2 + 智谱 4 个备援 API key。Hermes/Marvis/Codex/Trae CN 4 个 handoff 已写，等它们启动时按新配置加载
-- **影响**: 主人包年 Coding 订阅"量大管饱"充分利用；DeepSeek 按量不滥用；GLM 5.2 限流留给最难的（Codex GUI 触发时）
+- **背景**: 主人纠正 3 次模型定位：M3=Coding 订阅量大管饱 / DeepSeek Pro=按量有成本 / GLM 5.2=限流限量专项。最终方案：M3 给 Coding 类 agent（Claude Desktop/Hermes）/ DeepSeek Pro 给日常杂活省钱场景 / GLM 5.2 留给 Codex GUI 触发时专项 / Trae CN 走火山豆包包月。**主人后续纠正：Marvis 是腾讯自带大模型，不需要外部配置**
+- **决策**: Claude Desktop env 已配 M3 + DeepSeek Pro + GLM 5.2 + 智谱 4 个备援 API key。Hermes/Codex/Trae CN 3 个 handoff 已写。**Marvis 不需要外部模型配置**（自带）。等它们启动时按新配置加载
+- **影响**: 主人包年 Coding 订阅"量大管饱"充分利用；DeepSeek 按量不滥用；GLM 5.2 限流留给最难的（Codex GUI 触发时）；Marvis 不浪费主人任何模型
 - **配置**: [[Coordination/ModelConfig-2026-07-01]]
-- **Handoff**: [[Coordination/HANDOFFS/ModelConfig-{Hermes,Marvis,Codex,Trae-CN}-2026-07-01]]
+- **Handoff**: [[Coordination/HANDOFFS/ModelConfig-{Hermes,Codex,Trae-CN}-2026-07-01]]
+- **修正**: Marvis handoff 改为"不需要配置"
 
 ### D003: 多 Agent 分工调度方案 B（任务队列 + 抢单机制 v2）
 - **决策者**: claude-desktop + 郝冠的
