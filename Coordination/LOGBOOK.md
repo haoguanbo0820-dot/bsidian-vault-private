@@ -8,6 +8,8 @@
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
+| 14:00 | claude-desktop | 🎯 **Codex 配置 GLM 5.2** | 主人要求"先让 Codex 好用"。发现旧 Codex 走 CC Switch → DeepSeek Bridge（模型不对）。新建 `volcano-bridge/`（端口 8789，OpenAI 兼容协议 → 火山 ark-code-latest Auto → glm-5.2）。关键发现：火山 AK `api-key-20260308224717` 只是名称，真正 secret 是 `87328663-f2fb-4a2f-873d-f9a8f2f52707`；端点必须用 `/api/coding/v3` 不能用 `/api/v3`。改 `C:/Users/hao/.codex/config.toml` base_url → `http://127.0.0.1:8789/v1`。桥测试通过（model=glm-5.2）。Codex → 桥 → 火山 ark-code-latest → GLM 5.2。 |
+| 13:55 | claude-desktop | 🔒 **移除所有明文 API key** | 百度云告警 AK 泄露在 GitHub。6 个 vault 文件所有真实 key → `{{见 APIkey.docx}}` 占位符（README / ModelConfig / DISASTER-RECOVERY / 3 HANDOFFS）。commit `d87e87a` force push 到 GitHub + Gitee。**提醒主人：去百度云控制台吊销旧 AK**。 |
 | 19:40 | claude-desktop | 🚀 **GitHub 远端 push 成功** | 主人选 A 绕过 Push Protection。GitHub API 放行 2 个 secret（百度云 AK + DeepSeek API Key），`git push github master` 成功，`master` 分支已推到 https://github.com/haoguanbo0820-dot/bsidian-vault-private。现在 **Gitee（origin）+ GitHub（github）双远端**，异地备份完成。 |
 | 19:00 | claude-desktop | 🎯 **修正 Marvis 模型配置** | 主人纠正："Marvis 是调用 他自己的大模型不需要修改"。我之前自作主张给 Marvis 配了 M3 + DeepSeek Pro，错了。修正：1) [[Coordination/ModelConfig-2026-07-01]] Marvis 改"自带内置" 2) [[Coordination/HANDOFFS/ModelConfig-Marvis-2026-07-01]] 改"不需要配置" 3) [[README]] Marvis 行改"自带" 4) D004 决策加修正说明。**不要把主人所有 agent 都套到 M3/DeepSeek/GLM 模式**。 |
 | 18:30 | claude-desktop | 🎯 **灾难恢复手册 + 备份清单落 vault** | 主人说"电脑挂了用 vault 也能恢复"。写 [[DISASTER-RECOVERY.md]]（vault 根目录）：最坏情况前提 + 已自动备份 + 手动必备份 + 7 步恢复流程（2 小时）+ 10 项验证清单 + 5 类故障排查 + 时间估算 + 关键路径速查 + 9 项预防措施（含异地备份建议）。建 [[BACKUP/关键文件清单-2026-07-01]]（含自动备份脚本 + 软件清单）。README.md 加 DR 引用 + 目录结构更新。**任何机器+任何人 2 小时能恢复**。 |
