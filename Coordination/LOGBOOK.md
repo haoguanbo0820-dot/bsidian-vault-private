@@ -4,7 +4,12 @@
 
 ---
 
-## 2026-06-30
+## 2026-07-01
+
+| 时间 | Agent | 操作 | 详情 |
+|------|-------|------|------|
+| 16:30 | claude-desktop | 🎯 **多 Agent 调度方案 v2 落地** | 主人授权"我是大脑"，走 brainstorming 流程（3 问 + 3 方案 + 推荐 B）。**核心升级**：从 v1 "我大脑"被动 handoff → v2 "任务队列 + 抢单机制"。建 4 文件：QUEUE.json（含 T-20260701-001 跑爆金日记 + T-20260701-002 通知 agent）/ QUEUE.suggested.json / HEARTBEAT.md（5 agent 状态）/ HANDOFFS/ 目录（含 Marvis/Hermes 抢单协议）。**入队权**：主人+我直接，其他 agent 建议；**抢单权**：所有 5 agent 都行；**汇报**：触发式 4 种（完成/挂/撞车/GUI）。**关键改进**：去单点故障（我挂主人 30min 接管）/ 不超载（任务分到特长）/ 主动抢单（不是被动 handoff）。[[Coordination/分工设计-2026-07-01]] + [[Coordination/QUEUE]] + [[Coordination/HEARTBEAT]] + D003 决策。 |
+| 16:00 | claude-desktop | 🔍 Trae CN 实测 | 路径 `C:\Users\hao\AppData\Local\Programs\Trae CN\Trae CN.exe` ✅ 确认装好；debug.log 显示最后启动 6/29 10:26（24 天前）；tasklist 无进程在跑；token=0 闲置。**结论**：Trae CN 是字节 IDE（类 Cursor），需主人 GUI 充值才能用，纳入调度 v2 体系当"国内 LLM 备用 agent"（需 GUI 触发） |
 
 | 时间 | Agent | 操作 | 详情 |
 |------|-------|------|------|
@@ -37,6 +42,7 @@
 | 15:25 | claude-desktop | 🔄 接力 | Codex + Hermes 内的 Codex 都用同一个 codex-auto-review 上游（平台后端挂）。Hermes WebUI 鉴权 401 拿不到。claude-desktop 本地 Python urllib 直接抓 HN+GitHub 80 条真信号，写第 2 篇 AI 爆金日记，推 vault OK |
 | 15:30 | claude-desktop | 🔧 SMS 验证网关 | VirtualSMS.io MCP 接入完成：`.claude.json` 添加 virtualsms MCP Server、`sms-gateway/test_virtualsms.py` 验证脚本（discover/balance/flow/cheapest 四个命令）、API 连通性验证通过（46 服务/7 国家）。待用户注册获取 API Key 后即可用。路径: `D:/claude desktop/sms-gateway/` |
 | 14:45 | claude-desktop | 🔧 android-chat-bridge | 独立 Android 模拟器模块完成 (6 文件): `main.py` 入口 (start/status/sync/stop/test), `emu_manager.py` 生命周期+后台隐藏, `health_monitor.py` 健康守护+自动重启+告警, `chat_sync.py` ADB截图+OCR+增量去重写入Vault, `config.py`+`requirements.txt`。路径: `D:/claude desktop/android-chat-bridge/` |
+| 11:30 | claude-desktop | 🎯 装 OpenJarvis | G:\个人项目\AI工具\OpenJarvis clone 通（gh-proxy 12s, 2030 文件）+ uv sync --extra dev 通（79 包）+ jarvis --version/--help/doctor 26 子命令全挂。**关键发现：sandbox 不挂 G 盘**。236 tests passed / 1 skipped, Rust 扩展 `openjarvis_rust` 缺是已知阻塞（不阻塞 chat/agent 主链路）。[[Projects/OpenJarvis/install-notes-2026-07-01]] + [[Projects/OpenJarvis/gh-proxy-notes]] |
 |------|-------|------|------|
 | 11:00 | claude-desktop | 🔧 聊天提取方案 | 最终方案: Marvis `chat_extractor.py` → ADB 操控 MuMu 模拟器中的钉钉/微信 → 截图 → PaddleOCR → vault。解决桌面端 SQLCipher 加密 + API 权限两大问题，见 [[SOP/android-chat-extract]] |
 | 12:00 | claude-desktop | 🔧 钉钉同步方案 | 探明 4 条路径（DB加密/网页版下线/无CEF调试/API 8440只向内转发）+ API 凭据无效 → 转 Android OCR 方案 |

@@ -6,8 +6,9 @@
 
 | 任务 | Agent | 开始时间 | 预计 |
 |------|-------|----------|------|
-| CEL 揽收端 AI 采集方案修正（4 gap） | claude-desktop | 2026-06-30 | ✅ 已完成 |
-| AI爆金日记 每日采集+推vault | codex → claude-desktop | 2026-06-30 | 每日持续 |
+| **多 Agent 任务队列 + 抢单机制 v2 上线** | claude-desktop | 2026-07-01 16:30 | ✅ 已落地，等 Marvis/Hermes 下次启动扫队列 |
+| OpenJarvis 本地安装 + 烟测 | claude-desktop | 2026-07-01 | ✅ Python 链路通；Rust 扩展待定 |
+| AI爆金日记 每日采集+推vault | codex → claude-desktop | 2026-06-30 | 每日持续（T-20260701-001 pending） |
 
 ## 等待中
 
@@ -36,9 +37,16 @@
 6. 你的任务在 vault `Projects/hermes-tasks.md`
 7. 专心做微信/飞书自动化，别管 Obsidian 配置了
 
-## 协议（4 条铁律）
+## 协议（4 条铁律 + v2 新机制）
 
 1. **开始前** — git pull → 读此文件 → 确认没撞车 → 写入
-2. **发现冲突** — 两个 Agent 声明同一任务 → 后到者让位
+2. **发现冲突** — 两个 Agent 声明同一任务 → 后到者让位（v2 加：QUEUE.lock 自动检测）
 3. **完成时** — 移走任务 → 写 LOGBOOK → git push
 4. **阻塞时** — 移到"等待中"→ 标注原因
+
+**v2 新增**：
+- 所有任务入 `QUEUE.json`（主人+我直接入队，其他 agent 写 `QUEUE.suggested.json`）
+- agent 启动扫队列抢单（按 `required_skills` 匹配）
+- 心跳每 5 分钟写 `HEARTBEAT.md`
+- 抢单用原子写，第二个看到 locked 自动让
+- 详见 [[分工设计-2026-07-01]]

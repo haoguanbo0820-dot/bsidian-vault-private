@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "version": "v2",
+    "schema": "task-suggestion-v1",
+    "updated_at": "2026-07-01T16:30:00+08:00",
+    "updated_by": "claude-desktop",
+    "description": "建议任务队列 - 非权威 agent 提的，要 claude-desktop 或主人审核才能转正到 QUEUE.json"
+  },
+  "suggestions": []
+}

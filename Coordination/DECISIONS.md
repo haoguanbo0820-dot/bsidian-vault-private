@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-07-01
+
+### D003: 多 Agent 分工调度方案 B（任务队列 + 抢单机制 v2）
+- **决策者**: claude-desktop + 郝冠的
+- **背景**: 主人授权"我是大脑"分派活给其他 agent；v1 方案 A 有 3 个根本缺陷（单点故障/我超载/被动 handoff）
+- **决策**: 采用方案 B——任务队列（QUEUE.json）+ agent 抢单（required_skills 匹配）+ 心跳（HEARTBEAT.md）+ 冲突自动检测（原子写）
+- **影响**: 所有 agent 启动后主动扫队列抢单，不再被动等 handoff；我挂了 → 主人 30 分钟后接管（看心跳）；其他 agent 挂了 → 我兜底
+- **入队权**: 主人 + claude-desktop 直接入队；其他 agent 写 QUEUE.suggested.json 建议，审核转正
+- **汇报**: 触发式（4 种触发：完成/agent 挂/撞车/需主人 GUI）
+- **文档**: [[分工设计-2026-07-01]]
+
+---
+
 ## 2026-06-29
 
 ### D001: 使用 Obsidian Vault 作为 Agent 协调层
